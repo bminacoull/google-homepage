@@ -32,7 +32,9 @@ ol, ul {
 }
 
 /* main */
-
+ol, ul {
+	list-style: none;
+}
 .center {
     margin: auto;
 }
