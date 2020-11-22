@@ -50,6 +50,10 @@ li {
 }
 
 li a {
+    text-decoration: none;
+}
+
+li a {
     color: rgb(68, 68, 70);
     text-decoration: none; 
     padding-right: 5px;
