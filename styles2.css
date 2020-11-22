@@ -1,3 +1,41 @@
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    font-family: arial, sans-serif;
+    font-size: 14px; 
+    margin: 5px;
+    vertical-align: middle;
+}
+
+li a {
+    color: rgb(68, 68, 70);
+    text-decoration: none; 
+    padding-right: 5px;
+  }
+
+li a:hover {
+     text-decoration: underline;
+  }
+
+html, body, nav, footer, header, div, img, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ 
+footer, header, nav {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
 .flex {
     display: flex;
     height: 100%;
@@ -142,17 +180,4 @@ form {
 input:hover {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
-}
-
-ul {
-    list-style: none;
-}
-
-html body nav footer header div img ul {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 }
