@@ -40,3 +40,21 @@ time, mark, audio, video {
 .rightalign {
     float: right;
 }
+
+li {
+    display: inline;
+    font-family: arial, sans-serif;
+    font-size: 14px; 
+    margin: 5px;
+    vertical-align: middle;
+}
+
+li a {
+    color: rgb(68, 68, 70);
+    text-decoration: none; 
+    padding-right: 5px;
+  }
+
+li a:hover {
+     text-decoration: underline;
+  }
